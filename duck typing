@@ -1,0 +1,38 @@
+class sub:
+    def execute(self):
+        print("hello")
+        print("world\n")
+        
+class sub1:
+    def execute(self):
+        print("adarsh")
+        print("kiran")
+        print("neeraj")
+        print("charan")
+class main:
+    def value(self,ide):
+        ide.execute()
+        
+        
+        
+a=main() 
+b=sub()  # duck typing
+c=sub1()
+a.value(b)
+a.value(c)
+        
+        
+        
+        
+output
+hello
+world
+
+adarsh
+kiran
+neeraj
+charan
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
